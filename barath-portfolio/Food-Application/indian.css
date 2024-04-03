@@ -1,0 +1,44 @@
+body{
+    background-image: url(pictures/indian\ style.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+    color:magenta;
+    font-weight:bolder ;
+}
+
+h2{
+    color: orangered;
+    font-weight: bolder;
+}
+
+p{
+    color: forestgreen;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+#Quantity{
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.button {
+    background-color:yellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+
+  }

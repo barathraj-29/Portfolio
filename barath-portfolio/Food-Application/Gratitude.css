@@ -1,0 +1,19 @@
+body{
+    background-image: url(pictures/thanks.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+  color: royalblue;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+
+}
+    
+
+h2{
+  color: red;
+}

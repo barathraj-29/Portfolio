@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('COimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 45px;
+    color: #C19A6B;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Style Script', cursive;
+    font-family: 'Timmana', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+.parag{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 250px;
+    color: #E5AA70;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Niconne', cursive;
+    font-family: 'Style Script', cursive;
+    font-family: 'Timmana', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+.line2{
+    position: relative;
+    width: 400px;
+    height: 30px;
+    overflow: hidden;
+    margin-left: 600px;
+    margin-top:10px ;
+
+}
+
+.line2::before{
+    content: 'aaaaaaaaaa';
+    position: absolute;
+    top: -52px;
+    left: 0;
+    margin-left: 125px;
+    font-size: 4em;
+    color: transparent;
+    text-decoration-style: wavy;
+    text-decoration-color: #D2B48C;
+    text-decoration-line: underline;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate{
+     0%
+     {
+        transform: translateX(-1px);
+     }
+     100%
+    {
+        transform: translateX(-50px);
+    }
+}
+
+.insta{
+    height: 70px;
+    width: 70px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.mail{
+    height: 70px;
+    width: 70px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+

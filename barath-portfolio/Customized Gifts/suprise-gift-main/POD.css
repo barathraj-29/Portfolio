@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('PDimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallary{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.gallary h1{
+    font-size: 45px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Style Script', cursive;
+    font-family: 'Timmana', sans-serif;
+    font-family: 'Young Serif', serif;
+    margin-top: 30px;
+    color: #F5DEB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gallary .gallary_img_box{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.gallary .gallary_img_box .gallary_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DAA06D;
+}
+
+.gallary .gallary_img_box .gallary_img img{
+    width: 50%;
+    transition: .3s;
+}
+
+.gallary .gallary_img_box .gallary_img:hover img{
+    opacity: 0.4;
+}
+
+.gallary .gallary_img_box .gallary_img p{
+    position: absolute;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    color:black;
+    line-height: 22px;
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Niconne', cursive;
+    font-family: 'Style Script', cursive;
+    font-family: 'Timmana', sans-serif;
+    font-family: 'Young Serif', serif;
+    opacity: 0;
+    z-index: 5;
+    transition: 0.5s;/
+}
+
+.gallary .gallary_img_box .gallary_img:hover p {
+    opacity: 1; 
+}
+
+.gallary .gallary_img_box .gallary_img .gallary_btn{
+    position: absolute;
+    margin-top: 180px;
+    color: white;
+    background-color: #8B4513;
+    padding: 7px 25px;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(45px);
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.gallary .gallary_img_box .gallary_img:hover .gallary_btn{
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%; 
+}
+
+body{
+    position: absolute;
+    object-fit:scale-down;
+    background-image: url('CDimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+h2{ 
+    position: absolute;
+    top: 07%;
+    transform: translateY(-50%); 
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Style Script', cursive;
+    font-family: 'Timmana', sans-serif;
+    font-family: 'Young Serif', serif;
+    color: #5C4033;
+    font-size: 45px;
+    margin-left: 700px;
+    margin-top: 10px;
+
+}
+
+div .form{
+    margin-bottom: 110px;
+    margin-left: 750px;
+    font-size: 20px;  
+    color: #7B3F00; 
+}
+
+label{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Niconne', cursive;
+    font-family: 'Style Script', cursive;
+    font-family: 'Timmana', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+.bnt{
+    margin-left: 150px;
+    margin-top: 10px;
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #80461B, #8B4513);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  }
+  
+.bnt .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #80461B, #8B4513);
+  }
+  
+.bnt:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #5C4033;
+}
+  
+.bnt:hover {
+    background-image: linear-gradient(-45deg, #814141, #834333);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+  
+.bnt:hover .text {
+    background-image: linear-gradient(-45deg, #814141, #834333);
+}
+
+.line1{
+    position: relative;
+    width: 700px;
+    height: 50px;
+    overflow: hidden;
+    margin-left: 650px;
+    margin-top:70px ;
+
+}
+
+.line1::before{
+    content: 'aaaaaaaaaa';
+    position: absolute;
+    top: -52px;
+    left: 0;
+    margin-left: 125px;
+    font-size: 4em;
+    color: transparent;
+    text-decoration-style: wavy;
+    text-decoration-color: #D2B48C;
+    text-decoration-line: underline;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate{
+     0%
+     {
+        transform: translateX(-1px);
+     }
+     100%
+    {
+        transform: translateX(-50px);
+    }
+}

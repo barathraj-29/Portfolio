@@ -1,0 +1,45 @@
+body{
+    background-image: url(pictures/chinese\ style.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color: seagreen;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h2{
+    color: yellow;
+    font-weight: bolder;
+}
+
+p{
+    color: purple;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+#Quantity{
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.button {
+    background-color:greenyellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+
+  }

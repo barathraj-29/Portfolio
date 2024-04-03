@@ -1,0 +1,40 @@
+body {
+    background-image: url(pictures/contact.jpg);
+    background-size: cover;
+
+}
+
+img {
+    margin: 50px;
+    padding-left: 500;
+
+}
+
+h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 300%;
+    text-align: center;
+
+}
+
+.fb {
+    color: #3b5998;
+    font-weight: bolder;
+    font-size: large;
+    font-style: normal;
+}
+
+.insta {
+    color: #d62976;
+    font-weight: bolder;
+    font-size: large;
+    font-style: normal;
+}
+
+.mail {
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+    font-style: normal;
+}

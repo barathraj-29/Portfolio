@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.video{
+     position:absolute;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+      .video {
+        width: 100%;
+        height: auto;
+      }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .video {
+      width: auto;
+      height: 100%;
+    }
+}
+
+h5{
+
+  color: aliceblue;
+  font-size: 40px;
+  width: 120px;
+  cursor: pointer;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Style Script', cursive;
+  font-family: 'Young Serif', serif;
+}
+
+.Homepage{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;     
+}
+
+.Homepage ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px;
+  position: relative;
+}
+
+.Homepage ul li a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+   font-family: 'Lobster', sans-serif;
+   font-family: 'Young Serif', serif;  
+}
+
+.Homepage ul li::after{
+      content: '';
+      height: 3px;
+      width: 0;
+      background:#FF4500;
+      position: absolute;
+      left: 0;
+      bottom: -15%;
+      transition: 0.5s;
+}
+
+.Homepage ul li:hover:after{
+  width: 100%;
+}
+
+.text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.text h1{
+      font-size: 65px;
+      margin-top: 25px;
+      color: white;
+      font-family: 'Italianno', cursive;
+      font-family: 'Lobster', sans-serif;
+      font-family: 'Style Script', cursive;
+      font-family: 'Timmana', sans-serif;
+      font-family: 'Young Serif', serif;
+}
+
+.text p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Italianno', cursive;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Style Script', cursive;
+  font-family: 'Young Serif', serif;
+} 
+
